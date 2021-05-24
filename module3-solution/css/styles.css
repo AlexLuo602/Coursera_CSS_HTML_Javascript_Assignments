@@ -105,11 +105,18 @@ h1 {
   }
   .navbar-brand h1 { /* Restaurant name */
     padding-top: 20px;
-    font-size: 5vw; /* 1vw = 1% of viewport width */
   }
 
   #collapsable-nav a { /* Collapsed nav menu text */
     font-size: 1.2em;
+    font-weight: bold;
+    color: #000000;
+  }
+
+   #collapsable-nav a:hover { /* Collapsed nav menu text when hovered over */
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
   }
   /* End Header */
 
@@ -119,9 +126,24 @@ h1 {
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 479px) {
   /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
   .navbar-brand h1 { /* Restaurant name */
-    padding-top: 15px;
-    font-size: 6vw;
+    padding-top: 20px;
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #000000;
+  }
+
+   #collapsable-nav a:hover { /* Collapsed nav menu text when hovered over */
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
   }
   /* End Header */
   
